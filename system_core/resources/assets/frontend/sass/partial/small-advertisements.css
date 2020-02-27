@@ -1,0 +1,48 @@
+.small-advertisements {
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 1px 7px 0 rgba(170, 170, 170, 0.95);
+          box-shadow: 0 1px 7px 0 rgba(170, 170, 170, 0.95);
+  padding: 5px;
+}
+
+.small-advertisements .card .card-header {
+  padding: 7px 15px;
+  background: #212529;
+}
+
+.small-advertisements .card .card-header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.small-advertisements .card .card-header .header-content span {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.small-advertisements .card .card-body {
+  padding: 0;
+  margin-top: 5px;
+}
+
+.small-advertisements .card .card-body .body-content .market-name-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 0.1rem 0.3rem;
+}
+/*# sourceMappingURL=small-advertisements.css.map */

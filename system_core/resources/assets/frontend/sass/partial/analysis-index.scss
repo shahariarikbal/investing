@@ -1,0 +1,233 @@
+.analysis-index {
+    background: #ffffff;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    .title-bar {
+        border-bottom: 5px solid #f2f2f2;
+        h1 {
+            color: #454951;
+            margin: 0 0 15px;
+            padding: 0;
+            font-weight: 700;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 1.7rem;
+            &:before {
+                content: " ";
+                display: block;
+                position: absolute;
+                height: 4px;
+                bottom: 0;
+                background-color: #454951;
+                width: 36%;
+            }
+        }
+    }
+    .anaylsis-box {
+        box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+        padding: 15px 10px;
+        margin-bottom: 10px;
+        border-radius: 0;
+        .analysis-img-section {
+            a {
+                color: #333;
+                .analysis-img {
+                    position: relative;
+                    overflow: hidden;
+                    height: 170px;
+                    img {
+                        width: 100%;
+                        -webkit-transform: scale(1);
+                        transform: scale(1);
+                        -webkit-transition: .3s ease-in-out;
+                        transition: .3s ease-in-out;
+                        &:hover {
+                            width: 120%;
+                            margin: 0 0 0 0%;
+                            -webkit-transform: scale(1.3);
+                            transform: scale(1.3);
+                        }
+                    }
+                    .date-area {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        display: flex;
+                        span {
+                            padding: 0 7px;
+                            font-size: 12px;
+                            color: #ffffff;
+                            &.pencil {
+                                background: #E8A403;
+                            }
+                            &.month {
+                                background: #3A3838;
+                            }
+                            &.day {
+                                background: #808080;
+                            }
+                            &.year {
+                                background: #808080;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .anylysis-info-details {
+            .header {
+                display: flex;
+                flex-direction: column;
+                .title-area {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    @media(max-width: 992px) {
+                        align-items: start;
+                        flex-direction: column;
+                        padding-top: 7px;
+                    }
+                    h3 {
+                        font-size: 20px;
+                        margin: 0;
+                        width: 500px;
+                        -webkit-box-orient: vertical;
+                        display: -webkit-box;
+                        font-family: sans-serif;
+                        -webkit-line-clamp: 1;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        a {
+                            color: #333;
+                            font-weight: 500;
+                        }
+                         :hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .social-icon {
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    text-align: center;
+                    li {
+                        display: inline-block;
+                        list-style-type: none;
+                        a {
+                            color: #292626;
+                            padding-left: 2px!important;
+                            padding-right: 2px!important;
+                            text-align: center;
+                            font-size: 0.5rem;
+                            i {
+                                &.facebook-icon {
+                                    background: #3b5999;
+                                    width: 15px;
+                                    height: 15px;
+                                    line-height: 15px;
+                                    border-radius: 7px;
+                                    color: #fff;
+                                }
+                                &.twitter-icon {
+                                    background: #55acee;
+                                    width: 15px;
+                                    height: 15px;
+                                    line-height: 15px;
+                                    border-radius: 7px;
+                                    color: #fff;
+                                }
+                                &.linkedin-icon {
+                                    background: #0e76a8;
+                                    width: 15px;
+                                    height: 15px;
+                                    line-height: 15px;
+                                    border-radius: 7px;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+                p {
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    color: #333;
+                    font-weight: 500;
+                    .likesFloating {
+                        float: right;
+                        font-size: 18px;
+                        margin-top: -1px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .body {
+                p {
+                    margin-bottom: 10px;
+                    line-height: 25px;
+                    font-size: 14px;
+                    color: #333;
+                    font-family: inherit;
+                }
+            }
+            .footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+                a {
+                    background: #454951;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 10px;
+                    padding: 3px 7px;
+                    font-weight: 600;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+    .analysis-pagiantion {
+        margin-bottom: 1rem;
+        .pagination {
+            justify-content: center;
+            @media(max-width: 1199px) {
+                flex-wrap: wrap;
+            }
+            .page-item {
+                z-index: 0;
+                .page-link {
+                    background-color: #292626;
+                    margin: 5px;
+                    color: #fff;
+                    border-color: inherit;
+                    position: relative;
+                    z-index: 2;
+                    transition: all ease 0.5s;
+                    border: 0;
+                    padding: 4px 15px;
+                    border-radius: 4px;
+                    font-size: inherit;
+                    line-height: inherit;
+                    height: inherit;
+                    min-width: inherit;
+                    display: inherit;
+                    font-weight: 500;
+                    justify-content: inherit;
+                    align-items: inherit;
+                }
+                 :hover,
+                 :focus {
+                    background-color: #03a9f4;
+                    border-color: #03a9f4;
+                    color: #fff;
+                    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2);
+                    -webkit-transform: translateY(-4px);
+                    transform: translateY(-4px);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

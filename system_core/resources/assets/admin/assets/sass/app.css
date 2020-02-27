@@ -1,0 +1,38 @@
+.badge-active {
+  background: #00bf86;
+}
+
+.badge-inactive {
+  background: #727b84;
+}
+
+.badge-publish {
+  background: #00c0ef;
+}
+
+.badge-trash {
+  background: #ff8086;
+}
+
+.badge-monthly {
+  background: #00bf86;
+}
+
+.badge-yearly {
+  background: #00c0ef;
+}
+
+.x-90 {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-underline:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=app.css.map */

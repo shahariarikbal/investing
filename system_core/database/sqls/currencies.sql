@@ -1,0 +1,16 @@
+INSERT INTO `currencies` (`id`, `name`, `icon`, `logo`, `deleted_at`, `created_at`, `updated_at`) VALUES
+(1, 'EURCAD', 'eu-ca', 'TIYSfDVIJYajny9wXAbZd0yua.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:31:51'),
+(2, 'GBPNZD', 'gb-nz', 'TppxwU5DJt3EA3krqY9S7UkYc.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:31:39'),
+(3, 'EURGBP', 'eu-gb', 'Gn8uUWYuIbZnLrnPuC8GfsCnx.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:31:21'),
+(4, 'GBPUSD', 'gb-us', 'YyYA9nYaW3daW1KZZTPbZjz8P.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:31:00'),
+(5, 'EURJPY', 'eu-jp', 'xNI2dSoArSKMojM5AV7nNdAvN.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:30:44'),
+(6, 'GBPJPY', 'gb-jp', '0UpAGTqz2JLsrga1DHt0p4zbn.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:30:28'),
+(7, 'GPBUSD', 'gb-us', 'y3kUR2bXdOuds7qHYoQPL0iKp.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:30:18'),
+(8, 'NZDUSD', 'gb-nz', 'Kuji2ocdb2aZ7wNNnYR0Begai.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:30:08'),
+(9, 'GBPCAD', 'gb-ca', 'PeUgNrMcDxwEw5Ntqau3GX2P1.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:29:57'),
+(10, 'USDCAD', 'us-ca', 'nl19Qte8upOHebD9rnhy72Gzc.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:28:39'),
+(11, 'USDCHF', 'us-ch', 'vyj4qQC9i51Vu6XswIe9OBFjF.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:28:27'),
+(12, 'AUDUSD', 'au-us', 'PoQjA6zUeuuRExlSljwERBWzy.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:26:44'),
+(13, 'GBPCHF', 'gb-ch', 'bFRzgS6FSgxnSWD08Y0MYuaDp.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:26:27'),
+(14, 'USDJPY', 'us-jp', 'iwpr5NJ5c4eFfG3BaxqCzqpVP.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:26:12'),
+(15, 'EURUSD', 'eu-us', 'DDeYtv7T2EBe08ljOy8oL2DOB.JPG', NULL, '2020-01-25 23:31:51', '2020-01-25 23:33:05');

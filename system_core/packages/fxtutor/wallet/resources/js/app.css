@@ -1,0 +1,206 @@
+.finances .diposit-page .payment-title {
+  margin: 2rem 0;
+}
+
+.finances .diposit-page .payment-title h3 {
+  color: #1f2836;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.37;
+}
+
+.finances .diposit-page .payment-wrapper-box {
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+          box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+}
+
+.finances .diposit-page .payment-wrapper-box .active-box {
+  border: 2px solid #1abc9c;
+}
+
+.finances .diposit-page .payment-wrapper-box .payment-box .form-row .form-group, .finances .diposit-page .payment-wrapper-box .showall-box .form-row .form-group {
+  margin-bottom: 0;
+  padding: 10px 15px;
+}
+
+.finances .diposit-page .payment-wrapper-box .payment-box .form-row.title-bar, .finances .diposit-page .payment-wrapper-box .showall-box .form-row.title-bar {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+
+.finances .diposit-page .payment-wrapper-box .payment-box .form-row.title-bar:hover, .finances .diposit-page .payment-wrapper-box .showall-box .form-row.title-bar:hover {
+  background: #f3f3f3;
+  cursor: pointer;
+}
+
+.finances .diposit-page .payment-wrapper-box .payment-box .clickable-show-wrapper, .finances .diposit-page .payment-wrapper-box .showall-box .clickable-show-wrapper {
+  padding: 0 15px;
+}
+
+.finances .diposit-page .payment-result {
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+          box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+  border-radius: 10px;
+  padding: 0;
+}
+
+.finances .diposit-page .payment-result form {
+  background: none !important;
+  border-radius: 0 !important;
+}
+
+.finances .diposit-page .payment-result form .card {
+  border: none;
+}
+
+.finances .diposit-page .payment-result form .card img {
+  margin: 2rem 0;
+}
+
+.finances .diposit-page .payment-result form .card .card-body .form-group {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+}
+
+.finances .diposit-page .payment-result form .card .card-body .form-group .input-group {
+  padding: 0;
+}
+
+.finances .diposit-page .payment-result form .card .card-body .form-group .input-group input[type="number"] {
+  text-align: right;
+}
+
+.finances .transaction-history .trans-title {
+  margin: 2rem 0;
+}
+
+.finances .transaction-history .trans-title h3 {
+  color: #1f2836;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.37;
+}
+
+.finances .transaction-history .card .card-header ul li {
+  margin-right: 0.5rem;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse, .finances .transaction-history .card .card-body .inner .milestones .collapse, .finances .transaction-history .card .card-body .inner .pendings .collapse, .finances .transaction-history .card .card-body .inner .invoice .collapse, .finances .transaction-history .card .card-body .inner .deposits .collapse, .finances .transaction-history .card .card-body .inner .withdraws .collapse {
+  margin-bottom: 1rem;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse .card, .finances .transaction-history .card .card-body .inner .milestones .collapse .card, .finances .transaction-history .card .card-body .inner .pendings .collapse .card, .finances .transaction-history .card .card-body .inner .invoice .collapse .card, .finances .transaction-history .card .card-body .inner .deposits .collapse .card, .finances .transaction-history .card .card-body .inner .withdraws .collapse .card {
+  background: #f5f5f5;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse .card .collapseFiltering, .finances .transaction-history .card .card-body .inner .milestones .collapse .card .collapseFiltering, .finances .transaction-history .card .card-body .inner .pendings .collapse .card .collapseFiltering, .finances .transaction-history .card .card-body .inner .invoice .collapse .card .collapseFiltering, .finances .transaction-history .card .card-body .inner .deposits .collapse .card .collapseFiltering, .finances .transaction-history .card .card-body .inner .withdraws .collapse .card .collapseFiltering {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse .card .collapseFiltering .daterange, .finances .transaction-history .card .card-body .inner .milestones .collapse .card .collapseFiltering .daterange, .finances .transaction-history .card .card-body .inner .pendings .collapse .card .collapseFiltering .daterange, .finances .transaction-history .card .card-body .inner .invoice .collapse .card .collapseFiltering .daterange, .finances .transaction-history .card .card-body .inner .deposits .collapse .card .collapseFiltering .daterange, .finances .transaction-history .card .card-body .inner .withdraws .collapse .card .collapseFiltering .daterange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse .card .collapseFiltering .daterange .daterange-field, .finances .transaction-history .card .card-body .inner .milestones .collapse .card .collapseFiltering .daterange .daterange-field, .finances .transaction-history .card .card-body .inner .pendings .collapse .card .collapseFiltering .daterange .daterange-field, .finances .transaction-history .card .card-body .inner .invoice .collapse .card .collapseFiltering .daterange .daterange-field, .finances .transaction-history .card .card-body .inner .deposits .collapse .card .collapseFiltering .daterange .daterange-field, .finances .transaction-history .card .card-body .inner .withdraws .collapse .card .collapseFiltering .daterange .daterange-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse .card .collapseFiltering .daterange .daterange-field label, .finances .transaction-history .card .card-body .inner .milestones .collapse .card .collapseFiltering .daterange .daterange-field label, .finances .transaction-history .card .card-body .inner .pendings .collapse .card .collapseFiltering .daterange .daterange-field label, .finances .transaction-history .card .card-body .inner .invoice .collapse .card .collapseFiltering .daterange .daterange-field label, .finances .transaction-history .card .card-body .inner .deposits .collapse .card .collapseFiltering .daterange .daterange-field label, .finances .transaction-history .card .card-body .inner .withdraws .collapse .card .collapseFiltering .daterange .daterange-field label {
+  margin: 0 10px;
+  vertical-align: sub;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse .card .collapseFiltering .format, .finances .transaction-history .card .card-body .inner .milestones .collapse .card .collapseFiltering .format, .finances .transaction-history .card .card-body .inner .pendings .collapse .card .collapseFiltering .format, .finances .transaction-history .card .card-body .inner .invoice .collapse .card .collapseFiltering .format, .finances .transaction-history .card .card-body .inner .deposits .collapse .card .collapseFiltering .format, .finances .transaction-history .card .card-body .inner .withdraws .collapse .card .collapseFiltering .format {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1rem;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .collapse .card .export-btn, .finances .transaction-history .card .card-body .inner .milestones .collapse .card .export-btn, .finances .transaction-history .card .card-body .inner .pendings .collapse .card .export-btn, .finances .transaction-history .card .card-body .inner .invoice .collapse .card .export-btn, .finances .transaction-history .card .card-body .inner .deposits .collapse .card .export-btn, .finances .transaction-history .card .card-body .inner .withdraws .collapse .card .export-btn {
+  float: right;
+  margin-top: 2rem;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area, .finances .transaction-history .card .card-body .inner .milestones .filtering-area, .finances .transaction-history .card .card-body .inner .pendings .filtering-area, .finances .transaction-history .card .card-body .inner .invoice .filtering-area, .finances .transaction-history .card .card-body .inner .deposits .filtering-area, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area .form-control-sm, .finances .transaction-history .card .card-body .inner .milestones .filtering-area .form-control-sm, .finances .transaction-history .card .card-body .inner .pendings .filtering-area .form-control-sm, .finances .transaction-history .card .card-body .inner .invoice .filtering-area .form-control-sm, .finances .transaction-history .card .card-body .inner .deposits .filtering-area .form-control-sm, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area .form-control-sm {
+  font-size: 12px;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area .download-area ul, .finances .transaction-history .card .card-body .inner .milestones .filtering-area .download-area ul, .finances .transaction-history .card .card-body .inner .pendings .filtering-area .download-area ul, .finances .transaction-history .card .card-body .inner .invoice .filtering-area .download-area ul, .finances .transaction-history .card .card-body .inner .deposits .filtering-area .download-area ul, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area .download-area ul {
+  margin: 0;
+  padding: 0;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area .download-area ul li, .finances .transaction-history .card .card-body .inner .milestones .filtering-area .download-area ul li, .finances .transaction-history .card .card-body .inner .pendings .filtering-area .download-area ul li, .finances .transaction-history .card .card-body .inner .invoice .filtering-area .download-area ul li, .finances .transaction-history .card .card-body .inner .deposits .filtering-area .download-area ul li, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area .download-area ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area .download-area ul li a, .finances .transaction-history .card .card-body .inner .milestones .filtering-area .download-area ul li a, .finances .transaction-history .card .card-body .inner .pendings .filtering-area .download-area ul li a, .finances .transaction-history .card .card-body .inner .invoice .filtering-area .download-area ul li a, .finances .transaction-history .card .card-body .inner .deposits .filtering-area .download-area ul li a, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area .download-area ul li a {
+  color: #333;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area .download-area ul li a:hover, .finances .transaction-history .card .card-body .inner .milestones .filtering-area .download-area ul li a:hover, .finances .transaction-history .card .card-body .inner .pendings .filtering-area .download-area ul li a:hover, .finances .transaction-history .card .card-body .inner .invoice .filtering-area .download-area ul li a:hover, .finances .transaction-history .card .card-body .inner .deposits .filtering-area .download-area ul li a:hover, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area .download-area ul li a:hover {
+  text-decoration: underline;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area .download-area ul li:before, .finances .transaction-history .card .card-body .inner .milestones .filtering-area .download-area ul li:before, .finances .transaction-history .card .card-body .inner .pendings .filtering-area .download-area ul li:before, .finances .transaction-history .card .card-body .inner .invoice .filtering-area .download-area ul li:before, .finances .transaction-history .card .card-body .inner .deposits .filtering-area .download-area ul li:before, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area .download-area ul li:before {
+  content: " / ";
+  color: #9a9a9a;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .filtering-area .download-area ul li:first-child:before, .finances .transaction-history .card .card-body .inner .milestones .filtering-area .download-area ul li:first-child:before, .finances .transaction-history .card .card-body .inner .pendings .filtering-area .download-area ul li:first-child:before, .finances .transaction-history .card .card-body .inner .invoice .filtering-area .download-area ul li:first-child:before, .finances .transaction-history .card .card-body .inner .deposits .filtering-area .download-area ul li:first-child:before, .finances .transaction-history .card .card-body .inner .withdraws .filtering-area .download-area ul li:first-child:before {
+  content: none;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .table-area, .finances .transaction-history .card .card-body .inner .milestones .table-area, .finances .transaction-history .card .card-body .inner .pendings .table-area, .finances .transaction-history .card .card-body .inner .invoice .table-area, .finances .transaction-history .card .card-body .inner .deposits .table-area, .finances .transaction-history .card .card-body .inner .withdraws .table-area {
+  margin-bottom: 1rem;
+}
+
+.finances .transaction-history .card .card-body .inner .transactions .pagination-wrapper, .finances .transaction-history .card .card-body .inner .milestones .pagination-wrapper, .finances .transaction-history .card .card-body .inner .pendings .pagination-wrapper, .finances .transaction-history .card .card-body .inner .invoice .pagination-wrapper, .finances .transaction-history .card .card-body .inner .deposits .pagination-wrapper, .finances .transaction-history .card .card-body .inner .withdraws .pagination-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=app.css.map */

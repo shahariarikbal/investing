@@ -1,0 +1,11 @@
+INSERT INTO `deposits` (`id`, `method`, `member_id`, `amount`, `process_fee`, `tax`, `total`, `currency`, `payment_id`, `meta`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Fxtutor\\Wallet\\Payments\\Neteller', 1, 10000.00, 0.00, 0.00, 10000.00, 'usd', '6L919VD841', '{\"upload\":\"0dCxB8O99RZjUVWzPlF6yHX1g.JPG\"}', 2, '2020-01-05 12:46:36', '2020-01-05 12:46:39'),
+(2, 'Fxtutor\\Wallet\\Payments\\Neteller', 2, 10000.00, 0.00, 0.00, 10000.00, 'usd', '6GD596EDE2', '{\"upload\":\"0uAufEOxGvUkeIRLHwjbuLE7d.JPG\"}', 2, '2020-01-05 12:46:41', '2020-01-05 12:46:43'),
+(3, 'Fxtutor\\Wallet\\Payments\\Neteller', 3, 10000.00, 0.00, 0.00, 10000.00, 'usd', '54ES21DS32', '{\"upload\":\"1ITSYOMmyjIbntM5ZUmcsOzMW.JPG\"}', 2, '2020-01-05 12:46:45', '2020-01-05 12:46:46'),
+(4, 'Fxtutor\\Wallet\\Payments\\Neteller', 4, 10000.00, 0.00, 0.00, 10000.00, 'usd', '76TT4533LK', '{\"upload\":\"2jloS50NGOcq3E5fnhbvYg90w.JPG\"}', 2, '2020-01-05 12:46:50', '2020-01-05 12:46:48'),
+(5, 'Fxtutor\\Wallet\\Payments\\Skrill', 5, 10000.00, 0.00, 0.00, 10000.00, 'usd', '55HTY42DV4', '{\"upload\":\"4FbfUWaVQKPHGrbs7OwlDBgDA.JPG\"}', 2, '2020-01-05 12:46:52', '2020-01-05 12:46:54'),
+(6, 'Fxtutor\\Wallet\\Payments\\Skrill', 6, 10000.00, 0.00, 0.00, 10000.00, 'usd', '1288FRGR32', '{\"upload\":\"4FNfJ3ro134uGPwLHoNowmkdW.JPG\"}', 2, '2020-01-05 12:46:55', '2020-01-05 12:46:57'),
+(7, 'Fxtutor\\Wallet\\Payments\\Skrill', 7, 10000.00, 0.00, 0.00, 10000.00, 'usd', '45FFGE4D4D', '{\"upload\":\"4S16YP3EmluyPwbsuNacT4u1Z.JPG\"}', 2, '2020-01-05 12:46:59', '2020-01-05 12:47:01'),
+(8, 'Fxtutor\\Wallet\\Payments\\Neteller', 8, 10000.00, 0.00, 0.00, 10000.00, 'usd', '148BV919L6', '{\"upload\":\"7FHaOF36cPHtnfUTnlP349OqH.JPG\"}', 2, '2020-01-05 12:47:03', '2020-01-05 12:47:05'),
+(9, 'Fxtutor\\Wallet\\Payments\\Skrill', 9, 10000.00, 0.00, 0.00, 10000.00, 'usd', '54GTR4432R', '{\"upload\":\"7gB5mToVPFHvnC5sId5ndjN33.JPG\"}', 2, '2020-01-05 12:47:06', '2020-01-05 12:47:08'),
+(10, 'Fxtutor\\Wallet\\Payments\\Skrill', 10, 10000.00, 0.00, 0.00, 10000.00, 'usd', '98YT7ES656', '{\"upload\":\"6Ze4FzdUO81QSrylH7zJryypl.JPG\"}', 2, '2020-01-05 12:47:10', '2020-01-05 12:47:12');

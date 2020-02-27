@@ -1,0 +1,120 @@
+.content-details {
+    margin: 1rem 0;
+    @media(max-width: 1199px) {
+        margin: 0;
+    }
+    .leftBar {
+        @media(max-width: 1199px) {
+            #sidebar1, #sidebar3 {
+                width: 450px;
+                position: fixed;
+                top: 0;
+                left: -450px;
+                height: 70vh;
+                z-index: 9999;
+                background: #fff;
+                color: #fff;
+                transition: all 0.3s;
+                overflow-y: scroll;
+                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+            }
+            #sidebar1.active,
+            #sidebar3.active {
+                left: 0;
+            }
+            .overlay {
+                display: none;
+                position: fixed;
+                width: 100vw;
+                height: 100vh;
+                background: rgba(0, 0, 0, 0.7);
+                z-index: 998;
+                opacity: 0;
+                transition: all 0.5s ease-in-out;
+            }
+            .overlay.active {
+                display: block;
+                opacity: 1;
+            }
+            #sidebar1 .sidebar-header,
+            #sidebar3 .sidebar-header {
+                padding: 10px;
+                background: #fff;
+            }
+            a[data-toggle="collapse"] {
+                position: relative;
+            }
+            .dropdown-toggle::after {
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translateY(-50%);
+            }
+        }
+        @media(max-width:600px) {
+            #sidebar1,
+            #sidebar3 {
+                width: 300px;
+                left: -300px;
+            }
+        }
+    }
+    .middleBar {
+        position: relative;
+    }
+    .rightBar {
+        @media(max-width: 1199px) {
+            #sidebar2 {
+                width: 450px;
+                position: fixed;
+                top: 0;
+                right: -450px;
+                height: 70vh;
+                z-index: 9999;
+                background: #ffffff;
+                color: #fff;
+                transition: all 0.3s;
+                overflow-y: scroll;
+                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+            }
+            #sidebar2.active {
+                right: 0;
+            }
+            .overlay {
+                display: none;
+                position: fixed;
+                width: 100vw;
+                height: 100vh;
+                background: rgba(0, 0, 0, 0.7);
+                z-index: 998;
+                opacity: 0;
+                transition: all 0.5s ease-in-out;
+            }
+            .overlay.active {
+                display: block;
+                opacity: 1;
+            }
+            #sidebar2 .sidebar-header {
+                padding: 10px;
+                background: #ffffff;
+            }
+            a[data-toggle="collapse"] {
+                position: relative;
+            }
+            .dropdown-toggle::after {
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translateY(-50%);
+            }
+        }
+        @media(max-width:600px) {
+            #sidebar2 {
+                width: 300px;
+                right: -300px;
+            }
+        }
+    }
+}

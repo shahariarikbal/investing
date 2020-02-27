@@ -1,0 +1,47 @@
+.advertisement {
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 1px 7px 0 rgba(170, 170, 170, 0.95);
+          box-shadow: 0 1px 7px 0 rgba(170, 170, 170, 0.95);
+  padding: 5px;
+}
+
+.advertisement .card .card-header {
+  padding: 7px 15px;
+  background: #212529;
+}
+
+.advertisement .card .card-header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advertisement .card .card-header .header-content span {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advertisement .card .card-body {
+  padding: 0;
+  margin-top: 5px;
+}
+
+.advertisement .card .card-body .body-content a img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.advertisement .card .card-body .body-content .left-img {
+  padding-right: 1px;
+}
+
+.advertisement .card .card-body .body-content .right-img {
+  padding-left: 1px;
+}
+/*# sourceMappingURL=advertisement.css.map */

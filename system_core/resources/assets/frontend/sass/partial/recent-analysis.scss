@@ -1,0 +1,105 @@
+.market-analysis {
+    margin-bottom: 10px;
+    box-shadow: 0 1px 7px 0 hsla(0, 0%, 66.7%, .95);
+    padding: 5px 5px 0px 5px;
+    .card {
+        .card-header {
+            padding: 7px 15px;
+            background: #212529;
+            .header-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span {
+                    text-transform: uppercase;
+                    color: #ffffff;
+                }
+            }
+        }
+        .card-body {
+            padding: 0;
+            .body-content {
+                .media {
+                    border-bottom: 1px solid #ddd;
+                    padding: 0.5rem;
+                    margin: 0;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 20px;
+                        margin-right: 1rem;
+                    }
+                    .media-body {
+                        h5 {
+                            font-size: 14px;
+                            margin: 0;
+                            font-weight: 600;
+                            a {
+                                color: #212529;
+                                width: 300px;
+                                -webkit-box-orient: vertical;
+                                display: block;
+                                display: -webkit-box;
+                                font-family: sans-serif;
+                                -webkit-line-clamp: 1;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                @media(max-width: 1199px) {
+                                    width: 190px;
+                                }
+                                @media (min-width: 992px) and (max-width: 1199px) {
+                                    width: 100px;
+                                }
+                            }
+                             :hover {
+                                text-decoration: none;
+                            }
+                        }
+                        .details {
+                            p {
+                                width: 300px;
+                                -webkit-box-orient: vertical;
+                                display: block;
+                                display: -webkit-box;
+                                font-family: sans-serif;
+                                -webkit-line-clamp: 1;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                margin-bottom: 0;
+                                font-size: 13px;
+                                @media(max-width: 1199px) {
+                                    width: 190px;
+                                }
+                                @media(max-width:1199px) {
+                                    display: none;
+                                }
+                            }
+                        }
+                        .action-details {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 14px;
+                            line-height: 0;
+                            .likeComment {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .bp-view {
+                                    margin-right: 5px;
+                                    color: #333;
+                                }
+                            }
+                            .badge {
+                                background: #212529;
+                                color: #ffffff;
+                                border-radius: 2px;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

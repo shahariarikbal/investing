@@ -1,0 +1,79 @@
+.recent-closed-trade {
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 1px 7px 0 rgba(170, 170, 170, 0.95);
+          box-shadow: 0 1px 7px 0 rgba(170, 170, 170, 0.95);
+  padding: 5px;
+}
+
+.recent-closed-trade .card .card-header {
+  padding: 7px 15px;
+  background: #212529;
+}
+
+.recent-closed-trade .card .card-header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recent-closed-trade .card .card-header .header-content span {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.recent-closed-trade .card .card-body {
+  padding: 0;
+}
+
+.recent-closed-trade .card .card-body .table {
+  margin-bottom: 0;
+}
+
+.recent-closed-trade .card .card-body .table thead tr th {
+  border-bottom: 0px solid #dee2e6;
+}
+
+@media (min-width: 992px) and (max-width: 1599px) {
+  .recent-closed-trade .card .card-body .table thead tr th {
+    font-size: 11px;
+    padding: 0.15rem;
+  }
+}
+
+.recent-closed-trade .card .card-body .table tbody tr td {
+  padding: 0.25rem;
+  font-size: 12px;
+}
+
+@media (min-width: 992px) and (max-width: 1599px) {
+  .recent-closed-trade .card .card-body .table tbody tr td {
+    font-size: 11px;
+    padding: 0.15rem;
+  }
+}
+
+.recent-closed-trade .card .card-body .table tbody tr td img {
+  width: 35px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+@media (min-width: 992px) and (max-width: 1599px) {
+  .recent-closed-trade .card .card-body .table tbody tr td img {
+    width: 25px;
+    height: 8px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1599px) {
+  .recent-closed-trade .card .card-body .table {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=recent-closed-trade.css.map */

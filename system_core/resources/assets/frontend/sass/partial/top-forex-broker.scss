@@ -1,0 +1,125 @@
+.top-forex-brokers {
+    margin-bottom: 10px;
+    box-shadow: 0 1px 7px 0 hsla(0,0%,66.7%,.95);
+    padding: 5px;
+    .card {
+        .card-header {
+            padding: 7px 15px;
+            background: #212529;
+            .header-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span {
+                    text-transform: uppercase;
+                    color: #ffffff;
+                }
+            }
+        }
+        .card-body {
+            padding: 0;
+            .body-content {
+                border-bottom: 1px solid #ddd;
+                padding: 0.5rem 0;
+                align-items: center;
+                margin: 0;
+                .number-icon {
+                    position: relative;
+                    i {
+                        font-size: 1.5rem;
+                        position: absolute;
+                        left: 14px;
+                        top: 3px;
+                        @media (min-width: 992px) and (max-width: 1599px) {
+                            font-size: 1rem;
+                            left: 8px;
+                        }
+                    }
+                    span {
+                        position: relative;
+                        z-index: 1;
+                        color: #ffffff;
+                        left: 10px;
+                        width: 100%;
+                        text-align: center;
+                        top: 0;
+                        line-height: 0;
+                        font-size: 10px;
+                        @media (min-width: 992px) and (max-width: 1599px) {
+                            font-size: 1rem;
+                            position: relative;
+                            left: 0;
+                            top: -4px;
+                            font-size: 7px;
+                        }
+                    }
+                }
+                .broker-img {
+                    img {
+                        width: 89px;
+                        height: 36px;
+                        @media(max-width: 600px) {
+                            width: 50px;
+                            height: 30px;
+                        }
+                        @media (min-width: 992px) and (max-width: 1599px) {
+                            width: 40px;
+                            height: 25px;
+                        }
+                    }
+                }
+                .item-name {
+                    @media(max-width: 600px) {
+                        display: none;
+                    }
+                    a {
+                        color: #454951;
+                        display: block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        max-width: 100px;
+                        margin: 0 auto;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 9pt;
+                    }
+                     :hover {
+                        text-decoration: none;
+                    }
+                }
+                .review {
+                    a {
+                        background: #454951;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        font-size: 10px;
+                        padding: 3px 7px;
+                        font-weight: 600;
+                        border-radius: 2px;
+                        @media (min-width: 992px) and (max-width: 1599px) {
+                            padding: 3px;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+            .footer-content {
+                .card-header {
+                    background: #212529;
+                    border-radius: 0;
+                    font-size: 12px;
+                    a {
+                        text-transform: uppercase;
+                        color: #ffffff;
+                        display: block;
+                        text-align: center;
+                    }
+                     :hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

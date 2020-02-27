@@ -1,0 +1,133 @@
+.signal-report-details {
+    .container-shadow {
+        min-height: 100%;
+        margin: 1rem 0;
+
+        .container {
+            box-shadow: 0 1px 7px 0 rgba(170, 170, 170, 0.95);
+            padding: 1rem;
+            border-radius: 4px;
+
+            .row {
+                .col-md-12 {
+                    h1 {
+                        text-align: center;
+                        padding: 0.5em;
+                        margin: 0;
+                        color: #030;
+                        font-weight: bold;
+                        font-size: 1.5em;
+                        background: #212529;
+                        color: white;
+                    }
+
+                    #month_graph {
+                    }
+
+                    .table-responsive {
+                        table {
+                            text-align: center;
+
+                            thead {
+                                tr {
+                                    background-color: #607d8b;
+
+                                    th {
+                                        border: none;
+                                        vertical-align: top;
+                                        padding: 0.75rem;
+                                        font-size: inherit;
+                                        font-weight: 500;
+                                        text-transform: capitalize;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+
+                            tbody {
+                                tr {
+                                    td {
+                                        padding: 0.55rem;
+                                        vertical-align: top;
+                                        border-top: 1px solid #dee2e6;
+                                        border-color: inherit;
+                                        cursor: pointer;
+                                        font-size: 14px;
+
+                                        span {
+                                            small {
+                                                a {
+                                                }
+                                            }
+                                        }
+
+                                        img {
+                                        }
+
+                                        &.word-break {
+                                            word-wrap: break-word;
+                                        }
+                                    }
+
+                                    &.filled-profit {
+                                        color: darkgreen;
+                                        background-color: #f0fff0;
+                                        transition: 0.3s;
+
+                                        &:hover {
+                                            color: white;
+                                            background-color: #0db30d !important;
+
+                                            a {
+                                                color: #fff;
+                                            }
+                                        }
+
+                                        a {
+                                            color: darkgreen;
+                                            text-decoration: underline;
+                                        }
+                                    }
+
+                                    &.filled-loss {
+                                        color: #300;
+                                        background-color: #fb07073d;
+                                        transition: 0.3s;
+
+                                        &:hover {
+                                            color: white;
+                                            background: #a81a1a !important;
+
+                                            a {
+                                                color: #fff;
+                                            }
+                                        }
+
+                                        a {
+                                            color: #300;
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.st {
+                                border: solid 1px #e8eef4;
+                                border-collapse: collapse;
+                                margin-left: auto;
+                                margin-right: auto;
+
+                                @media (max-width: 767px) {
+                                    width: 300%;
+                                }
+                            }
+
+                            &.table {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

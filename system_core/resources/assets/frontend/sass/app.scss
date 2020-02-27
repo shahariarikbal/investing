@@ -1,0 +1,30 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// fontawesome
+$fa-font-path: "../fonts";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+
+// flag-icon-css
+// @import '~flag-icon-css/sass/flag-icon';
+
+// jssocial
+@import '~jssocials/styles/jssocials-theme-flat.scss';
+@import '~jssocials/styles/jssocials.scss';
+
+// animate
+@import '~animate.css/animate.min.css';
+
+
+// ionicon
+@import '~ionicons/dist/scss/ionicons.scss';

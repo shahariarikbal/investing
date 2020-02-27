@@ -1,0 +1,133 @@
+.content-details {
+  margin: 1rem 0;
+}
+
+@media (max-width: 1199px) {
+  .content-details {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .content-details .leftBar #sidebar1, .content-details .leftBar #sidebar3 {
+    width: 450px;
+    position: fixed;
+    top: 0;
+    left: -450px;
+    height: 70vh;
+    z-index: 9999;
+    background: #fff;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  .content-details .leftBar #sidebar1.active,
+  .content-details .leftBar #sidebar3.active {
+    left: 0;
+  }
+  .content-details .leftBar .overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .content-details .leftBar .overlay.active {
+    display: block;
+    opacity: 1;
+  }
+  .content-details .leftBar #sidebar1 .sidebar-header,
+  .content-details .leftBar #sidebar3 .sidebar-header {
+    padding: 10px;
+    background: #fff;
+  }
+  .content-details .leftBar a[data-toggle="collapse"] {
+    position: relative;
+  }
+  .content-details .leftBar .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 600px) {
+  .content-details .leftBar #sidebar1,
+  .content-details .leftBar #sidebar3 {
+    width: 300px;
+    left: -300px;
+  }
+}
+
+.content-details .middleBar {
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .content-details .rightBar #sidebar2 {
+    width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    height: 70vh;
+    z-index: 9999;
+    background: #ffffff;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  .content-details .rightBar #sidebar2.active {
+    right: 0;
+  }
+  .content-details .rightBar .overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .content-details .rightBar .overlay.active {
+    display: block;
+    opacity: 1;
+  }
+  .content-details .rightBar #sidebar2 .sidebar-header {
+    padding: 10px;
+    background: #ffffff;
+  }
+  .content-details .rightBar a[data-toggle="collapse"] {
+    position: relative;
+  }
+  .content-details .rightBar .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 600px) {
+  .content-details .rightBar #sidebar2 {
+    width: 300px;
+    right: -300px;
+  }
+}
+/*# sourceMappingURL=broker.css.map */

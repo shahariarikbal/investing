@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,2GAAO;AACP,OAAO,CAAP,oGAAO",
+    "sources": [
+        "owl.scss"
+    ],
+    "names": [],
+    "file": "owl.css"
+}

@@ -1,0 +1,171 @@
+// Variables
+
+
+.finances {
+  .diposit-page {
+    .payment-title {
+      margin:2rem 0;
+      h3 {
+        color: #1f2836;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.37;
+      }
+    }
+    .payment-wrapper-box {
+      box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+      .active-box {
+        border: 2px solid #1abc9c;
+      }
+      .payment-box, .showall-box{
+        .form-row {
+          .form-group{
+            margin-bottom: 0;
+            padding:10px 15px;
+          }
+        }
+        .form-row.title-bar{
+          padding: 10px;
+          border-bottom: 1px solid #ddd;
+          margin: 0;
+        }
+        .form-row.title-bar:hover{
+          background:#f3f3f3;
+          cursor: pointer;
+        }
+        .clickable-show-wrapper {
+          padding:0 15px;
+        }
+      }
+    }
+    .payment-result {
+      box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+      border-radius: 10px;
+      padding: 0;
+      form {
+        background:none!important;
+        border-radius: 0!important;
+        .card {
+            border: none;
+            img {
+              margin: 2rem 0;
+            }
+            .card-body {
+              .form-group {
+                align-items: center;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 0.5rem;
+                .input-group {
+                  padding: 0;
+                  input[type="number"] {
+                    text-align: right;
+                  }
+                }
+              }
+            }
+        }
+      }
+    }
+  }
+  .transaction-history {
+    .trans-title {
+      margin:2rem 0;
+      h3 {
+        color: #1f2836;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.37;
+      }
+    }
+    .card {
+      .card-header {
+        ul {
+          li {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+      .card-body{
+        .inner {
+          .transactions, .milestones, .pendings, .invoice, .deposits, .withdraws {
+              
+              .collapse {
+                margin-bottom: 1rem;
+                .card {
+                  background: #f5f5f5;
+                  .collapseFiltering {
+                    display: flex;
+                    .daterange {
+                      display: flex;
+                      flex-direction: column;
+                      .daterange-field {
+                        display: flex;
+                        label {
+                          margin:0 10px;
+                          vertical-align: sub;
+                        }
+                      }
+                    }
+                    .format {
+                      display: flex;
+                      flex-direction: column;
+                      margin-left: 1rem;
+                    }
+                  }
+                  .export-btn {
+                    float: right;
+                    margin-top: 2rem;
+                  }
+                }
+              }
+              
+              .filtering-area {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 12px;
+                font-size: 12px;
+                .form-control-sm{
+                  font-size: 12px;
+                }
+                .download-area {
+                  ul{
+                    margin:0;
+                    padding:0;
+                    li{
+                      list-style-type: none;
+                      display: inline-block;
+                        a {
+                          color: #333;
+                        }
+                        a:hover {
+                          text-decoration: underline;
+                        }
+                    }
+                    li:before {
+                      content: " / ";
+                      color: #9a9a9a;
+                      display: inline-block;
+                      margin-right: 5px;
+                    }
+                    li:first-child:before{
+                      content:none;
+                    }
+                  }
+                }
+              }
+              .table-area {
+                margin-bottom: 1rem;
+              }
+              .pagination-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              }
+          }
+        }
+      }
+    }
+  }
+}

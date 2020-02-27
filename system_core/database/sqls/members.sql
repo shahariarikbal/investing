@@ -1,0 +1,11 @@
+INSERT INTO `members` (`id`, `username`, `email`, `first_name`, `last_name`, `last_login_at`, `password`, `email_verified_at`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'jcollins28', 'jcollins.farnandasa@example.org', 'jcollins', 'farnandasa', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'njTL5qVKeB', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(2, 'ayana5022', 'ayana.gabreal@example.com', 'ayana', 'gabreal', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'e8EnWp2ICf', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(3, 'wcremin11', 'wcremin@example.org', 'wcremin', 'obak', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'ar0N7q0jb3', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(4, 'janae7894', 'janae78@example.net', 'janae78', 'smith', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'bC4fukgjWv', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(5, 'david.quitzon61', 'david.quitzon@example.net', 'david', 'quitzon', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, '6i3dwYY35u', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(6, 'lesch.jessyca27', 'lesch.jessyca@example.net', 'lesch', 'jessyca', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'XVFXcoDrYB', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(7, 'ida.bahringer66', 'ida.bahringer@example.net', 'ida', 'bahringer', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'hVxrGKeboZ', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(8, 'ralph.skiles10', 'ralph.skiles@example.net', 'ralph', 'skiles', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'Q5tCb7935Z', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(9, 'fritsch.abbigail20', 'fritsch.abbigail@example.net', 'fritsch', 'abbigail', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'b2455xnkjA', '2020-01-05 04:57:28', '2020-01-05 04:57:28'),
+(10, 'vivianne.hackett73', 'vivianne.hackett@example.net', 'vivianne', 'hackett', NULL, '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 'sVkhMU65el', '2020-01-05 04:57:28', '2020-01-05 04:57:28');

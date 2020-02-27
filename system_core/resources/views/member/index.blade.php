@@ -1,0 +1,18 @@
+@extends('frontend.layouts.master')
+
+@section('style')
+    <link rel="stylesheet" href="{{ asset('member/css/dashboard.css') }}" type="text/css">
+@endsection
+
+@section('footer-script')
+    <script src="{{ asset('member/js/dashboard.js') }}"></script>
+@endsection
+
+@section('content')
+
+<section class="profile-user fx_tri mb-5 mt-5">
+    <div class="container">
+        <dashboard></dashboard>
+    </div>
+</section>
+@endsection

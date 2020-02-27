@@ -1,0 +1,190 @@
+.sitemap {
+    .listing-bar {
+        box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+        padding: 15px 10px;
+
+        @media (max-width: 767px) {
+            margin: 1rem 0;
+        }
+
+        ul {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+
+            &.linking-acount {
+                margin-bottom: 1rem;
+
+                li {
+                    border-bottom: 1px dashed #9c9c9c;
+                    padding-bottom: 4px;
+
+                    a {
+                        color: #007bff;
+                    }
+                }
+            }
+
+            li {
+                list-style-type: none;
+                margin-bottom: 10px;
+
+                a {
+                    font-size: 14px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: #20a6f7;
+                        transition: 0.3s;
+                    }
+
+                    &.active {
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+    }
+
+    .listing-details-bar {
+        box-shadow: 0px 1px 7px 0px rgba(170, 170, 170, 0.95);
+        padding: 15px 30px;
+
+        nav {
+            ol {
+                background-color: inherit;
+                border-radius: inherit;
+                padding: inherit;
+
+                li {
+                    font-size: 14px;
+
+                    a {
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+
+        span {
+            display: block;
+            font-weight: bold;
+            text-transform: capitalize;
+            margin-bottom: 0.5rem;
+            color: #390161;
+            font-size: 1.2rem;
+            font-family: century gothic;
+        }
+
+        h6 {
+            font-weight: 300;
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            color: #3f51b5;
+            border-bottom: 1px dashed #9c9c9c;
+            width: 50%;
+            padding-bottom: 10px;
+            margin: 0 0 20px 0;
+        }
+
+        .home-card,
+        .aboutus-card,
+        .coreservice-card,
+        .signal-card,
+        .analysis-card,
+        .review-card,
+        .more-card,
+        .support-card {
+            .card {
+                border-left: 1px solid rgba(0, 0, 0, 0.06);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+                border-top: 0;
+                min-height: 190px;
+                overflow: hidden;
+                border-radius: 0;
+
+                .card-header {
+                    background-color: #3f51b5;
+                    padding: 0.3rem 1rem;
+                    border-radius: 0;
+
+                    a {
+                        color: #fff;
+                        text-transform: capitalize;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .card-body {
+                    padding: 0.7rem 0 0.7rem 0.7rem;
+
+                    ul {
+                        margin: 0;
+                        padding: 0 0 0 1rem;
+                        color: #3f51b5;
+
+                        li {
+                            a {
+                                font-size: 14px;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    color: #3f51b5;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .home-card,
+        .analysis-card {
+            padding-right: 0;
+        }
+
+        .aboutus-card,
+        .review-card {
+            padding-left: 0;
+            padding-right: 0;
+
+            @media (max-width: 1199px) {
+                padding-right: 15px;
+            }
+
+            .card {
+                @media (max-width: 1199px) {
+                    border-right: 1px solid rgba(0, 0, 0, 0.06);
+                }
+            }
+        }
+
+        .coreservice-card,
+        .more-card {
+            padding-left: 0;
+            padding-right: 0;
+
+            @media (max-width: 1199px) {
+                padding-left: 15px;
+            }
+        }
+
+        .signal-card,
+        .support-card {
+            padding-left: 0;
+
+            .card {
+                border-right: 1px solid rgba(0, 0, 0, 0.06);
+            }
+        }
+    }
+
+    .slitebg {
+        height: 1px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 2rem;
+    }
+}
